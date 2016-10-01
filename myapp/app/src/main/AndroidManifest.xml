@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibm.mobileappbuilder.employeesdirectory20150916145522" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.EmployeesFilterActivity"
+            android:label="@string/employeesFilterActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.EmployeesDBDSItemFormActivity"
+            android:label="@string/employeesDBDSItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.StatusFilterActivity"
+            android:label="@string/statusFilterActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.StatusScreen1DSItemFormActivity"
+            android:label="@string/statusScreen1DSItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.MyappMain"
+            android:label="@string/myappMain"
+            android:theme="@style/AppTheme.Drawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+      </activity>
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.MenuActivity"
+            android:label="@string/menuActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.EmployeesActivity"
+            android:label="@string/employeesActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.EmployeesDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.StatusActivity"
+            android:label="@string/statusActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.StatusDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.NewsActivity"
+            android:label="@string/newsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.NewsDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.employeesdirectory20150916145522.ui.ContactInformationActivity"
+        />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:theme="@style/NoActionBar"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.worklight.wlclient.ui.UIActivity"/>
+    </application>
+
+</manifest>

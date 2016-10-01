@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">myapp</string>
+
+    <!-- Activity Titles -->
+    <string formatted="false" name="employeesFilterActivity">Employees</string>
+    <string formatted="false" name="employeesDBDSItemFormActivity"></string>
+    <string formatted="false" name="statusFilterActivity">Status</string>
+    <string formatted="false" name="statusScreen1DSItemFormActivity"></string>
+    <string formatted="false" name="myappMain">myapp</string>
+    <string formatted="false" name="menuActivity">Menu</string>
+    <string formatted="false" name="employeesActivity">Employees</string>
+    <string formatted="false" name="statusActivity">Status</string>
+    <string formatted="false" name="newsActivity">News</string>
+</resources>
+
+
